@@ -102,14 +102,14 @@ analytics:
 # Site Author
 author:
   name: "LIANG Houdong"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/selfie.JPG"
   bio: "I am a junior student in HKUST, majoring in Data Science and Technology and Computer Science"
-  location: "Hong Kong Univiersity of Science and Technology"
+  location: "Hong Kong"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "hliangam@connect.ust.hk"
+      url: "mailto:hliangam@connect.ust.hk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://dongdong3272.github.io"
