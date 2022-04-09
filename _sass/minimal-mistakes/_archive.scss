@@ -9,12 +9,12 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    //padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    //padding-right: $right-sidebar-width;
   }
 }
 
@@ -35,7 +35,7 @@
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: $muted-text-color;
+  color: $text-color;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -460,4 +460,14 @@
 	.feature__wrapper {
 		display: inline-block;
 	}
+}
+
+.archive p{
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.archive ul{
+  font-size: 18px;
+  line-height: 1.5;
 }

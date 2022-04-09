@@ -5,14 +5,83 @@ layout: archive
 {{ content }}
 
 <h3 class="archive__subtitle">{{ "About Me" }}</h3>
-{{ "Welcome to my personal website. I am currently a Third Year Undergraduate
-Student at the "}}
-<a href="https://hkust.edu.hk/"
-  >{{"Hong Kong University of Science and Technology"}}</a
->
-{{". I am"}} {% if paginator %} {% assign posts = paginator.posts %} {% else %}
-{% assign posts = site.posts %} {% endif %} {% assign entries_layout =
-page.entries_layout | default: 'list' %}
+<p>
+  {{"Welcome to my personal website. I am currently a Third Year Undergraduate
+  Student at the "}}
+  <a href="https://hkust.edu.hk/"
+    >{{"Hong Kong University of Science and Technology"}}</a
+  >{{", pursuing a bachelor’s degree in Data Science and Technology and Computer
+  Science. My research interest lies in the field of machine learning and
+  database systems. "}}
+</p>
+<p>
+  {{"Currently, I am a frontend developer of "}}
+  <a href="https://pathadvisor.ust.hk/">HKUST Path Advisor</a>{{", which is a
+  university system which could help users to find locations on campus. This
+  project is led by "}}
+  <a href="https://seng.hkust.edu.hk/about/people/faculty/raymond-chi-wing-wong"
+    >{{"Professor Raymond Wong"}}</a
+  >
+  {{" in HKUST. "}}
+</p>
+<p>
+  {{"This webpage is last updated on "}}<strong>{{"2022/04/09"}}</strong>{{"."}}
+</p>
+<h3 class="archive__subtitle">{{ "Research Interest" }}</h3>
+<p>
+  {{"I am mainly interested in the research of machine learning and database
+  systems."}}
+</p>
+<h3 class="archive__subtitle">{{ "Education" }}</h3>
+<p>
+  <strong
+    >{{"1. Hong Kong University of Science and Technology ("}}<a
+      href="https://hkust.edu.hk/"
+      >{{"HKUST"}}</a
+    >{{")"}}</strong
+  >
+</p>
+<ul>
+  <li>
+    {{"Bachelor Degree in "}}<a href="https://dsct.ust.hk/"
+      >{{"Data Science and Technology"}}</a
+    >{{" and "}}<a href="https://cse.hkust.edu.hk/bsc/"
+      >{{"Computer Science"}}</a
+    >{{", Sep. 2019 – Jun. 2023 (Expected)"}}
+  </li>
+  <li>{{"CGA: "}}<strong>{{"4.061"}}</strong>{{"/ 4.30"}}</li>
+  <li>{{"MCGA: "}}<strong>{{"4.060"}}</strong>{{"/ 4.30"}}</li>
+</ul>
+<h3 class="archive__subtitle">{{ "Awards&Prizes" }}</h3>
+<ul>
+  <li>
+    <strong>{{"Dean’s List for the School of Science"}}</strong>{{" for all
+    grading semesters."}}
+  </li>
+  <li><strong>{{"HKSAR Government Scholarship"}}</strong></li>
+  <li><strong>{{"Chern Class Scholarship"}}</strong></li>
+  <li>
+    <strong>{{"First Prize in Chinese Physics Olympiad (35th)"}}</strong>
+  </li>
+  <li>
+    <strong>
+      {{"Second Prize in National Middle School Students’ Capacity Show in
+      Maths, Physics and Chemistry (10th)"}}
+    </strong>
+  </li>
+</ul>
+<h3 class="archive__subtitle">{{ "Skills" }}</h3>
+<ul>
+  <li>{{"Comfortable with C++, C, Java and Python"}}</li>
+  <li>{{"Comfortable with Git and common VC tools such as GitHub, GitLab"}}</li>
+  <li>{{"Full-stack Web Design"}}</li>
+  <li>{{"Comfortable with R, SQL, NoSQL"}}</li>
+  <li>{{"Machine Learning"}}</li>
+</ul>
+
+{% if paginator %} {% assign posts = paginator.posts %} {% else %} {% assign
+posts = site.posts %} {% endif %} {% assign entries_layout = page.entries_layout
+| default: 'list' %}
 <div class="entries-{{ entries_layout }}">
   {% for post in posts %} {% include archive-single.html type=entries_layout %}
   {% endfor %}
