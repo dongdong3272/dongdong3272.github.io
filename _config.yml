@@ -16,7 +16,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "en-US"
-title: "Site Title"
+title: "LIANG Houdong's Personal Website"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "LIANG Houdong"
@@ -103,28 +103,25 @@ analytics:
 author:
   name: "LIANG Houdong"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
+  bio: "I am a junior student in HKUST, majoring in Data Science and Technology and Computer Science"
   location: "Hong Kong Univiersity of Science and Technology"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "hliangam@connect.ust.hk"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://dongdong3272.github.io"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/profile.php?id=100040883676044"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/dongdong3272"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/dongdong_louis/"
 
 # Site Footer
 footer:
