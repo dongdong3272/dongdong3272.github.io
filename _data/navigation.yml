@@ -1,12 +1,12 @@
 # main links
 main:
   - title: "Main Page"
-    url: https://dongdong3272.github.io
+    url: /
   - title: "UG courses"
-    url: https://dongdong3272.github.io
+    url: /ugcourses/
   - title: "Reasearch Experience"
-    url: https://dongdong3272.github.io
+    url: /research_expr/
   - title: "Other Experience"
-    url: https://dongdong3272.github.io
+    url: /other_expr/
   - title: "Publication"
-    url: https://dongdong3272.github.io
+    url: /publication/

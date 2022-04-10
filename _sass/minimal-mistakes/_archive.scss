@@ -463,11 +463,41 @@
 }
 
 .archive p{
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
 .archive ul{
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5;
+}
+.archive h1{
+  font-size: x-large;
+}
+
+.archive #ug-year-1,#ug-year-2,#ug-year-3,#ug-year-4{
+  font-size: 22px;
+}
+
+.archive pre{
+  font-size: 15px;
+}
+.archive h6,h5{
+  font-size: 15px;
+}
+.archive #fall,#fall-1,#fall-2,#fall-3{
+  font-size: 17px;
+}
+.archive #spring,#spring-1,#spring-2,#spring-3{
+  font-size: 17px;
+}
+.archive #summer,#summer-1,#summer-2,#summer-3{
+  font-size: 17px;
+}
+.archive h4{
+  font-size: 20px;
+}
+
+.archive #campus-experience, #off-campus-experience, #exchange-experience{
+  font-size: 20px;
 }
