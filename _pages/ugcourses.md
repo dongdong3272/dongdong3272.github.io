@@ -106,6 +106,42 @@ ITP368     4->3    Programming Graphical User Interfaces
 
 ---
 
+## UG Year 4
+
+##### 18(+3) + ** = ** Credits
+
+### Fall
+
+```angular2html
+COMP5331    3   Knowledge Discovery in Databases
+COMP4211    3   Machine Learning
+COMP4981    6   Final Year Project
+LANG4030    3   Technical Communication II for CSE, CPEG & DSCT
+CORE1423    3   Enhanced Chinese Communication
+```
+
+##### Transfer Credits from Fudan University through virtual study
+
+##### Courses in Fudan University(credits in FudanU and tranfered credits):
+
+```angular2html
+SOCI170006     2->3    Psychology and Life
+```
+
+---
+
+## Open-Sourced Course Assignment/Project Repository:
+
+##### COMP2012H: Honors Object-Oriented Programming and Data Structures: [Tilt To Live](https://github.com/yuankeyu/TiltToLive_H10-)
+
+##### COMP3111: Software Engineering: [Newborn Name Recommendation System](https://github.com/Zhang-JK/COMP3111-T22)
+
+##### ITP303: Full-Stack Web Development: [ourDeal](https://github.com/dongdong3272/ITP303Project)
+
+##### ITP439: Compiler Development: [USCC Complier](https://github.com/itp439-20221/uscc-dongdong3272)
+
+##### ITP368: Programming Graphical User Interfaces: [2048 Game](https://github.com/dongdong3272/ITP368Project)
+
 <!-- ## Open-Sourced Course Assignment/Project Repository:
 [COMP4021: Internet Computing](https://github.com/MighTy-Weaver/COMP4021-2020Fall)
 

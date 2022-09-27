@@ -6,7 +6,7 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ "About Me" }}</h3>
 <p>
-  {{"Welcome to my personal website. I am currently a Third Year Undergraduate
+  {{"Welcome to my personal website. I am currently a Fourth Year Undergraduate
   Student at the "}}
   <a href="https://hkust.edu.hk/"
     >{{"Hong Kong University of Science and Technology"}}</a
@@ -25,7 +25,19 @@ layout: archive
   {{" in HKUST. "}}
 </p>
 <p>
-  {{"This webpage is last updated on "}}<strong>{{"2022/04/09"}}</strong>{{"."}}
+  {{"My Final Year Project, supervised by "}}<a
+    href="https://cse.hkust.edu.hk/admin/people/faculty/profile/zxf"
+    >{{"Professor ZHOU Xiaofang"}}</a
+  >{{", is related to Graph Database and Software Development. Specifically, it
+  is about building a visual query interface that is compatible with Neo4j. It
+  allows non-technical users to graphically build the query and visualize the
+  query results. For more information, please check our "}}<a
+    href="../assets/files/proposal.pdf"
+    >{{"proposal"}}</a
+  >{{"."}}
+</p>
+<p>
+  {{"This webpage is last updated on "}}<strong>{{"2022/09/27"}}</strong>{{"."}}
 </p>
 <h3 class="archive__subtitle">{{ "Research Interest" }}</h3>
 <p>
@@ -52,39 +64,84 @@ layout: archive
   <li>{{"CGA: "}}<strong>{{"4.061"}}</strong>{{"/ 4.30"}}</li>
   <li>{{"MCGA: "}}<strong>{{"4.060"}}</strong>{{"/ 4.30"}}</li>
 </ul>
-<h3 class="archive__subtitle">{{ "Awards&Prizes" }}</h3>
+
+<h3 class="archive__subtitle">{{ "Standardized Test" }}</h3>
+<p>
+  <strong>{{"1. Graduate Record Examinations (GRE) (Sept.03, 2022)"}}</strong>
+</p>
 <ul>
+  <li>{{"Total: "}}<strong>{{"328+4"}}</strong></li>
   <li>
-    <strong>{{"Dean’s List for the School of Science"}}</strong>{{" for all
-    grading semesters."}}
-  </li>
-  <li><strong>{{"HKSAR Government Scholarship"}}</strong></li>
-  <li><strong>{{"Chern Class Scholarship"}}</strong></li>
-  <li>
-    <strong>{{"First Prize in Chinese Physics Olympiad (35th)"}}</strong>
-  </li>
-  <li>
-    <strong>
-      {{"Second Prize in National Middle School Students’ Capacity Show in
-      Maths, Physics and Chemistry (10th)"}}
-    </strong>
+    {{"Verbal: "}}<strong>{{"158 "}}</strong> {{" Quantitative: "}}<strong
+      >{{"170 "}}</strong
+    >
+    {{" Analytical Writing: "}}<strong>{{"4.0 "}}</strong>
   </li>
 </ul>
-<h3 class="archive__subtitle">{{ "Skills" }}</h3>
+  <p>
+    <strong
+      >{{"2. Test of English as a Foreign Language (TOEFL) (Sept.21,
+      2022)"}}</strong
+    >
+  </p>
 <ul>
-  <li>{{"Comfortable with C++, C, Java and Python"}}</li>
-  <li>{{"Comfortable with Git and common VC tools such as GitHub, GitLab"}}</li>
-  <li>{{"Full-stack Web Design"}}</li>
-  <li>{{"Comfortable with R, SQL, NoSQL"}}</li>
-  <li>{{"Machine Learning"}}</li>
+  <li>{{"Total: "}}<strong>{{"107"}}</strong></li>
+  <li>
+    {{"Reading: "}}<strong>{{"29 "}}</strong> {{" Listening: "}}<strong
+      >{{"30 "}}</strong
+    >
+    {{" Speaking: "}}<strong>{{"23 "}}</strong> {{" Writing: "}}<strong
+      >{{"25"}}</strong
+    >
+  </li>
 </ul>
 
-{% if paginator %} {% assign posts = paginator.posts %} {% else %} {% assign
-posts = site.posts %} {% endif %} {% assign entries_layout = page.entries_layout
-| default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %} {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
+  <h3 class="archive__subtitle">{{ "Awards&Prizes" }}</h3>
+  <ul>
+    <li>
+      <strong>{{"Dean’s List for the School of Science"}}</strong>{{" for all
+      grading semesters."}}
+    </li>
+    <li><strong>{{"HKSAR Government Scholarship"}}</strong></li>
+    <li><strong>{{"Chern Class Award"}}</strong></li>
+    <li><strong>{{"Tin Ka Ping Scholarship (Exchange)"}}</strong></li>
+    <li>
+      <strong
+        >{{"HKSAR Government Scholarship Fund - Reaching Out Award"}}</strong
+      >
+    </li>
+    <li>
+      <strong>{{"First Prize in Chinese Physics Olympiad (35th)"}}</strong>
+    </li>
+    <li>
+      <strong>
+        {{"Second Prize in National Middle School Students’ Capacity Show in
+        Maths, Physics and Chemistry (10th)"}}
+      </strong>
+    </li>
+  </ul>
+  <h3 class="archive__subtitle">{{ "Skills" }}</h3>
+  <ul>
+    <li>{{"Comfortable with C++, C, Java and Python"}}</li>
+    <li>{{"Basic Full-stack Web Design"}}</li>
+    <li>{{"Basic Machine Learning"}}</li>
+    <li>
+      {{"Comfortable with R, SQL(with MySQL), NoSQL(with MongoDB), Cypher(with
+      Neo4j)"}}
+    </li>
+    <li>
+      {{"Comfortable with Git and common VC tools such as GitHub, GitLab"}}
+    </li>
+    <li>{{"Basic Complier Development"}}</li>
+  </ul>
 
-{% include paginator.html %}
+  {% if paginator %} {% assign posts = paginator.posts %} {% else %} {% assign
+  posts = site.posts %} {% endif %} {% assign entries_layout =
+  page.entries_layout | default: 'list' %}
+  <div class="entries-{{ entries_layout }}">
+    {% for post in posts %} {% include archive-single.html type=entries_layout
+    %} {% endfor %}
+  </div>
+
+  {% include paginator.html %}
+</ul>
