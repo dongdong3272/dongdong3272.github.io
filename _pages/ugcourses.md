@@ -8,9 +8,9 @@ author_profile: true
 classes: wide
 ---
 
-This is the course history during my undergraduate study in the Hong Kong University of Science and Technology.
+This is the course history during my undergraduate study in the Hong Kong University of Science and Technology and other exchange institutions.
 
-I am currently a Senior Student Ambassador of HKUST, so feel free to ask me questions related to these courses on the [addmission website](https://join.hkust.edu.hk/meet-our-students).
+I am currently a Senior Student Ambassador of HKUST, please feel free to ask me questions related to these courses on the [addmission website](https://join.hkust.edu.hk/meet-our-students).
 
 ## UG Year 1
 
@@ -130,7 +130,7 @@ SOCI170006     2->3    Psychology and Life
 
 ---
 
-## Open-Sourced Course Assignment/Project Repository:
+### Open-Sourced Course Assignment/Project Repository:
 
 ##### COMP2012H: Honors Object-Oriented Programming and Data Structures: [Tilt To Live](https://github.com/yuankeyu/TiltToLive_H10-)
 
