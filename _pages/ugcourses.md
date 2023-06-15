@@ -8,11 +8,9 @@ author_profile: true
 classes: wide
 ---
 
-This is the course history during my undergraduate study in the Hong Kong University of Science and Technology and other exchange institutions.
+This is the course history during my undergraduate study at the Hong Kong University of Science and Technology and other exchange institutions.
 
-I am currently a Senior Student Ambassador of HKUST, please feel free to ask me questions related to these courses on the [addmission website](https://join.hkust.edu.hk/meet-our-students).
-
-## UG Year 1
+## UG Year 1 (2019 - 2020)
 
 ###### 13 + 19 = 32 Credits
 
@@ -39,7 +37,7 @@ ELEC1100    4   Introduction to Electro-Robot Design
 
 ---
 
-## UG Year 2
+## UG Year 2 (2020 - 2021)
 
 ##### 18 + 22 + 6 = 46 Credits
 
@@ -75,7 +73,7 @@ MATH4335    3   Introduction to Optimization
 
 ---
 
-## UG Year 3
+## UG Year 3 (2021 - 2022)
 
 ##### 21 + 13 = 34 Credits
 
@@ -106,20 +104,19 @@ ITP368     4->3    Programming Graphical User Interfaces
 
 ---
 
-## UG Year 4
+## UG Year 4 (2022 - 2023)
 
-##### 18(+3) + ** = ** Credits
+##### 18(+3) + 21 = 42 Credits
 
 ### Fall
 
 ```angular2html
+COMP4981    6   Final Year Project
 COMP5331    3   Knowledge Discovery in Databases
 COMP4211    3   Machine Learning
-COMP4981    6   Final Year Project
 LANG4030    3   Technical Communication II for CSE, CPEG & DSCT
 CORE1423    3   Enhanced Chinese Communication
 ```
-
 ##### Transfer Credits from Fudan University through virtual study
 
 ##### Courses in Fudan University(credits in FudanU and tranfered credits):
@@ -128,23 +125,33 @@ CORE1423    3   Enhanced Chinese Communication
 SOCI170006     2->3    Psychology and Life
 ```
 
+### Spring
+
+```angular2html
+COMP4981    6   Final Year Project
+COMP4521    3   Mobile Application Development
+COMP5311    3   Database Architecture and Implementation
+MATH3424    3   Regression Analysis
+HUMA1000B   3   Cultures and Values: Righteousness, Destiny and Well-being
+HUMA2050    3   Classical Chinese
+```
+
 ---
 
-### Open-Sourced Course Assignment/Project Repository:
+### Open-Sourced Course Assignments/ Project Repositories:
 
-##### COMP2012H: Honors Object-Oriented Programming and Data Structures: [Tilt To Live](https://github.com/yuankeyu/TiltToLive_H10-)
+##### COMP2012H: Honors Object-Oriented Programming and Data Structures: [Tilt To Live(Github)](https://github.com/yuankeyu/TiltToLive_H10-)
 
-##### COMP3111: Software Engineering: [Newborn Name Recommendation System](https://github.com/Zhang-JK/COMP3111-T22)
+##### COMP3111: Software Engineering: [Newborn Name Recommendation System(Github)](https://github.com/Zhang-JK/COMP3111-T22)
 
-##### ITP303: Full-Stack Web Development: [ourDeal](https://github.com/dongdong3272/ITP303Project)
+##### ITP303: Full-Stack Web Development: [ourDeal(Github)](https://github.com/dongdong3272/ITP303Project), [ourDeal(Website)](http://mydeal-dongdong.000webhostapp.com/home/home.php)
 
-##### ITP439: Compiler Development: [USCC Complier](https://github.com/itp439-20221/uscc-dongdong3272)
+##### ITP439: Compiler Development: [USCC Complier(Github)](https://github.com/itp439-20221/uscc-dongdong3272)
 
-##### ITP368: Programming Graphical User Interfaces: [2048 Game](https://github.com/dongdong3272/ITP368Project)
+##### ITP368: Programming Graphical User Interfaces: [2048 Game(Github)](https://github.com/dongdong3272/ITP368Project)
 
-<!-- ## Open-Sourced Course Assignment/Project Repository:
-[COMP4021: Internet Computing](https://github.com/MighTy-Weaver/COMP4021-2020Fall)
+##### COMP5331: Knowledge Discovery in Databases: [NollaFraud(Github)](https://github.com/C1rF/NollaFraud)
 
-[COMP4471: Deep Learning in Computer Vision](https://github.com/MighTy-Weaver/COMP4471-2020Fall)
+##### COMP4521: Mobile Application Development: [JMatch(Github)](https://github.com/dongdong3272/COMP4521-JMatch)
 
-[COMP4901K: Machine Learning in Natural Language Processing](https://github.com/MighTy-Weaver/COVID19-NER) -->
+##### COMP4981: Final Year Project: [VisualNeo(Github)](https://github.com/C1rF/VisualNeo)

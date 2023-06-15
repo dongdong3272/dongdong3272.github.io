@@ -4,6 +4,8 @@ main:
     url: /
   - title: "UG courses"
     url: /ugcourses/
+  - title: "PG courses"
+    url: /pgcourses/
   - title: "Reasearch Experience"
     url: /research_expr/
   - title: "Other Experience"
