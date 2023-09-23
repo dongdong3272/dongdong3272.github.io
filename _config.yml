@@ -19,7 +19,7 @@ locale: "en-US"
 title: "LIANG Houdong 梁厚栋 Louis"
 title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
-name: "LIANG Houdong"
+name: "LIANG Houdong (Louis)"
 description: "LIANG Houdong's Personal Website"
 url: "https://dongdong3272.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -101,11 +101,11 @@ analytics:
 
 # Site Author
 author:
-  name: "LIANG Houdong"
-  avatar: "/assets/images/selfie.JPG"
-  bio: "BSc in Computer Science and Data Science at HKUST, MS in Computer Science at UCSD, Frontend Web Developer Intern"
-  location: "United States"
-  email:
+  name: "LIANG Houdong (Louis)"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "MS in Computer Science at UCSD, Frontend Web Developer Intern at Inspur Group, BS in Computer Science and Data Science at HKUST"
+  location: "San Diego, CA, United States"
+  email: "holiang@ucsd.edu"
   links:
     - label: "Email(Work)"
       icon: "fas fa-fw fa-envelope-square"

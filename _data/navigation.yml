@@ -2,13 +2,15 @@
 main:
   - title: "Main Page"
     url: /
-  - title: "UG courses"
-    url: /ugcourses/
-  - title: "PG courses"
-    url: /pgcourses/
-  - title: "Reasearch Experience"
+  - title: "Reasearch & Projects"
     url: /research_expr/
-  - title: "Other Experience"
-    url: /other_expr/
+  - title: "Work Experience"
+    url: /work_expr/
   - title: "Publication"
     url: /publication/
+  - title: "Leadership & Extracurricular"
+    url: /other_expr/
+  - title: "PG courses"
+    url: /pgcourses/
+  - title: "UG courses"
+    url: /ugcourses/
