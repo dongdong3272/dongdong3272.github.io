@@ -8,7 +8,17 @@ author_profile: true
 classes: wide
 ---
 
-#### 1. **Inspur Group (China’s largest AI server maker)** _(Jun. 2023 – Aug. 2023)_
+#### 1. **Smart Twigs Consultancy Group** _(Jan. 2024 – Mar. 2024)_
+
+##### _(Position: Front End Engineering Intern | Technologies and skills: React, TypeScript, Figma, Plasmo, Python, Docker)_
+
+- Worked with the product team to convert design interfaces into effective React components utilizing Figma.
+- Troubleshooted bugs and developed features for the Redeemer Extension, using Jira for efficient issue tracking and
+  resolution in a team environment.
+- Execute and deploy automation tests using Puppeteer to evaluate the CSS selectors across various e-commerce
+  websites, guaranteeing the successful functioning of features.
+
+#### 2. **Inspur Group (China’s largest AI server maker)** _(Jun. 2023 – Aug. 2023)_
 
 ##### _(Position: Software Engineer Intern | Technologies and skills: React, Django, Vue, JavaScript, Python, Docker)_
 
