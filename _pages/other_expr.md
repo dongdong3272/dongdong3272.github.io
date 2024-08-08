@@ -30,5 +30,5 @@ classes: wide
   - View Transcript ([pdf](../assets/files/uclatrans.pdf))
 - Spring Exchange in University of Southern California, USA. _(Jun. 2022 - May. 2022)_
   - View Transcript ([pdf](../assets/files/usctrans.pdf))
-- Outbound Virtual Study Abroad in Fudan University, China. _(Sept. 2022 - Now)_
+- Outbound Virtual Study Abroad in Fudan University, China. _(Sept. 2022 - Dec. 2022)_
   - View Transcript ([pdf](../assets/files/fudantrans.pdf))
