@@ -35,32 +35,29 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 -   **Time Complexity when `m = n`:**  
     `O(mn + mlogm) = O(n^2)`
 
+**Limitations:** 
+1. O(n^2) time complexity is not practical when n is really large.
+
 # Solution 2: Still Naive Method (OT)
 
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
-	    # sort the intervals
-	    intervals.sort(key=lambda x: x[1] - x[0] + 1)
 	    lookup = [-1] * (10**7 + 1)
 	    # iterate over the intervals and set the lookup list
 	    for start, end in intervals:
 		    length = end - start + 1
 		    for num in range(start, end + 1):
-		    if lookup[num] == -1:
+		    if lookup[num] == -1 or lookup[num] > length:
 			    lookup[num] = length
 		return [lookup[q] for q in queries]
 
 -   **Time Complexity in general:**  
-    `O(mn + mk)`
-    
--   **Time Complexity when `m = n`:**  
-    `O(m^2 + mk)`
+    `O(mk)`
 
 -   **Space Complexity:**  
     `O(k)`
     
--   **Limitations:** 
-	1. k can easily be a large number, leading to exploding time and space complexity.
-	2. Assume that intervals will never change after initial setup.
+**Limitations:** 
+1. k can easily be a large number, leading to exploding time and space complexity.
 
 # Solution 3: Binary search in all queries (~2000ms)
 
@@ -68,8 +65,9 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 		sorted_queries = sorted(enumerate(queries), key = lambda x: x[1])
         intervals.sort(key = lambda x: x[1] - x[0])
         
-        # [(0, 2), (2, 5), (1, 19), (3, 22)]
-        # [[2, 3], [2, 5], [20, 25], [1, 8]]
+        # sorted queries: [(0, 2), (2, 5), (1, 19), (3, 22)]
+        # sorted intervals: [[2, 3], [2, 5], [20, 25], [1, 8]]
+        # then we iterate through each interval: (e.g.)
         # for [2, 5], we hope that returned start_idx = 0 (the first number >= 2)
         # for [2, 5], we hope that returned end_idx = 2 (the first number > 5)
         
@@ -77,9 +75,7 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
             l, r = 0, len(sorted_queries)
             while l < r:
                 mid  = (l + r) // 2
-                # compare sorted_queries[mid][1] with num
-                temp = sorted_queries[mid][1]
-                if temp >= num:
+                if sorted_queries[mid][1] >= num:
                     r = mid
                 else:
                     l = mid + 1
@@ -107,9 +103,6 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 	            res[q.pop(ind)[1]] = right - left + 1
 	    return res
 
-
--   **How to think of the solution:**
-
   
 -   **Time Complexity in general:**  
     `O(mlogm + nlogn + max(m,n)logn)`
@@ -119,10 +112,13 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 
 -   **Space Complexity:**  
     `O(n)`
+
+**How to think of the solution:**
+In the Solution 2, we use a lookup list to store the answers for all possible queries. But actually, many answers may not be queried so that we waste lots of space storing those values. This solution instead only answers the queries that are being asked.
     
--   **Limitations:** 
-	1. Assume that intervals will never change after initial setup.
-	2. Assume that queries will never change after initial setup.
+**Limitations:** 
+1. Assume that intervals will never change after initial setup.
+2. Assume that queries will never change after initial setup.
 
 # Solution 4: Min-heap (~1400ms)
 
@@ -240,4 +236,3 @@ Please refer to to LeetCode Problem [1851. Minimum Interval to Include Each Quer
 	        for query in queries:
 	            res.append(queryTree(query))
 	        return res
-
