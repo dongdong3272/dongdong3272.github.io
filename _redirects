@@ -1,0 +1,31 @@
+# Netlify/Vercel redirects file
+# This file handles server-side redirects for modern hosting platforms
+
+# Redirect old URLs to new professional/* URLs
+/work_expr/              /professional/work_expr/       301
+/work_expr/index.html    /professional/work_expr/       301
+/work_expr               /professional/work_expr/       301
+
+/research_expr/          /professional/research_expr/   301
+/research_expr/index.html /professional/research_expr/  301
+/research_expr           /professional/research_expr/   301
+
+/posts/                  /professional/posts/           301
+/posts/index.html        /professional/posts/           301
+/posts                   /professional/posts/           301
+
+/publication/            /professional/publication/     301
+/publication/index.html  /professional/publication/     301
+/publication             /professional/publication/     301
+
+/other_expr/             /professional/other_expr/      301
+/other_expr/index.html   /professional/other_expr/      301
+/other_expr              /professional/other_expr/      301
+
+/pgcourses/              /professional/pgcourses/       301
+/pgcourses/index.html    /professional/pgcourses/       301
+/pgcourses               /professional/pgcourses/       301
+
+/ugcourses/              /professional/ugcourses/       301
+/ugcourses/index.html    /professional/ugcourses/       301
+/ugcourses               /professional/ugcourses/       301

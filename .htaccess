@@ -1,0 +1,32 @@
+# Redirect old URLs to new professional/* URLs
+# This file handles server-side redirects for Apache servers
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Redirect old paths to new professional paths
+RewriteRule ^work_expr/?$ /professional/work_expr/ [R=301,L]
+RewriteRule ^work_expr/index\.html$ /professional/work_expr/ [R=301,L]
+
+RewriteRule ^research_expr/?$ /professional/research_expr/ [R=301,L]
+RewriteRule ^research_expr/index\.html$ /professional/research_expr/ [R=301,L]
+
+RewriteRule ^posts/?$ /professional/posts/ [R=301,L]
+RewriteRule ^posts/index\.html$ /professional/posts/ [R=301,L]
+
+RewriteRule ^publication/?$ /professional/publication/ [R=301,L]
+RewriteRule ^publication/index\.html$ /professional/publication/ [R=301,L]
+
+RewriteRule ^other_expr/?$ /professional/other_expr/ [R=301,L]
+RewriteRule ^other_expr/index\.html$ /professional/other_expr/ [R=301,L]
+
+RewriteRule ^pgcourses/?$ /professional/pgcourses/ [R=301,L]
+RewriteRule ^pgcourses/index\.html$ /professional/pgcourses/ [R=301,L]
+
+RewriteRule ^ugcourses/?$ /professional/ugcourses/ [R=301,L]
+RewriteRule ^ugcourses/index\.html$ /professional/ugcourses/ [R=301,L]
+
+# Optional: Add trailing slash to directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ $1/ [R=301,L]
