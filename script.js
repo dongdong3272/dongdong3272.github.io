@@ -128,7 +128,7 @@ class LandingPage {
    */
   handleScroll() {
     const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll(".bg-circle");
+    const parallaxElements = document.querySelectorAll(".bg-shape");
 
     parallaxElements.forEach((element, index) => {
       const speed = 0.5 + index * 0.1;
