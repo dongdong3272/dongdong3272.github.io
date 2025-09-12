@@ -510,6 +510,35 @@ body {
   }
 }
 
+/* iPhone 13 specific optimizations (390px width) */
+@media (max-width: 430px) {
+  /* Make footer text smaller */
+  .footer-text {
+    font-size: 0.7rem;
+  }
+
+  /* Make buttons smaller */
+  .btn {
+    min-width: 220px;
+    padding: 1rem 1.8rem;
+    font-size: 0.9rem;
+    gap: 0.7rem;
+  }
+
+  .btn-text {
+    font-size: 0.9rem;
+  }
+
+  .btn-icon {
+    font-size: 1rem;
+  }
+
+  /* Make subtitle even smaller */
+  .subtitle {
+    font-size: clamp(0.85rem, 3vw, 1rem);
+  }
+}
+
 /* ==========================================================================
    Accessibility
    ========================================================================== */
